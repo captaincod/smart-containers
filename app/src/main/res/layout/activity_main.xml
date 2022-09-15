@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/server"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="48dp"
+        android:text="Сервер: Не выбран"
+        android:fontFamily="@font/vk_sans_medium"
+        android:textColor="@color/gray"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/bins_available"
+        android:fontFamily="@font/vk_sans_medium"
+        android:textColor="@color/gray"
+        android:textSize="18sp"/>
+
+    <View android:layout_width="238dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="34dp"
+        android:background="@color/gray"
+        android:layout_marginTop="10sp"/>
+
+    <TextView
+        android:id="@+id/main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="107dp"
+        android:layout_marginStart="34dp"
+        android:text="Данные [УДАЛЕНЫ]"
+        android:fontFamily="@font/vk_sans_demibold"
+        android:textColor="@color/gray"
+        android:textSize="18sp"/>
+
+    <View android:layout_width="270dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="34dp"
+        android:background="@color/gray"
+        android:layout_marginTop="10sp"/>
+
+    <Button
+        android:id="@+id/toFirstBin"
+        android:layout_width="275dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="30dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/first_but"
+        android:fontFamily="@font/vk_sans_demibold"
+        android:textAllCaps="false"
+        android:gravity="bottom"
+        android:paddingBottom="20dp"
+        android:paddingStart="22dp"
+        android:textSize="16sp"
+        android:textColor="@color/gray"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/toSecondBin"
+        android:layout_width="275dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="30dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/second_but"
+        android:fontFamily="@font/vk_sans_demibold"
+        android:textAllCaps="false"
+        android:gravity="center_vertical"
+        android:paddingStart="22dp"
+        android:textSize="16sp"
+        android:textColor="@color/gray"
+        tools:ignore="RtlSymmetry" />
+    <Button
+        android:id="@+id/toThirdBin"
+        android:layout_width="275dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="30dp"
+        android:backgroundTint="@color/yellow"
+        android:text="@string/third_but"
+        android:fontFamily="@font/vk_sans_demibold"
+        android:textAllCaps="false"
+        android:gravity="center_vertical"
+        android:paddingStart="22dp"
+        android:textSize="16sp"
+        android:textColor="@color/gray"
+        tools:ignore="RtlSymmetry" />
+
+</LinearLayout>

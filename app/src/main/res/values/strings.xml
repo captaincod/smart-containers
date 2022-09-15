@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Умные контейнеры</string>
+    <string name="hello_world">Добро пожаловать в “ecoTrash”!</string>
+    <string name="choose_server">Пожалуйста, выберите сервер</string>
+    <string name="set_url_hint">192.168.***.***</string>
+    <string name="set_url_ok">Вперед!</string>
+    <string name="bins_available">Доступно три контейнера</string>
+    <string name="first_but">Бумага</string>
+    <string name="second_but">Крышки</string>
+    <string name="third_but">Батарейки</string>
+    <string name="empty">Контейнер пуст!</string>
+    <string name="almost_empty">Контейнер практически пуст!</string>
+    <string name="one_third">Контейнер заполнен на треть!</string>
+    <string name="half">Контейнер заполнен на половину!</string>
+    <string name="two_thirds">Контейнер заполнен на две трети!</string>
+    <string name="full">Контейнер переполнен!</string>
+    <string name="recommendation">* Что можно положить в контейнер?</string>
+    <string name="rec1">Фантики, стикеры, квитки для пересдачи, фольгу</string>
+    <string name="rec2">Исключительно пластиковые крышки от бутылок</string>
+    <string name="rec3">Батарейки. Любые.</string>
+    <string name="taking_out">Вынос мусора производится вечером!</string>
+    <string name="to_main">Назад в меню</string>
+    <string name="to_next">К следующему контейнеру</string>
+
+
+
+</resources>

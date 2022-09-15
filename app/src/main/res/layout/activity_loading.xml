@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".LoadingActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:text="@string/hello_world"
+        android:fontFamily="@font/vk_sans_demibold"
+        android:textColor="@color/gray"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <View android:layout_width="247dp"
+        android:layout_height="2dp"
+        android:background="@color/gray"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"/>
+
+    <ImageView
+        android:layout_width="247dp"
+        android:layout_height="247dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="29sp"
+        android:src="@drawable/happy_sun_bro"/>
+
+    <TextView
+        android:id="@+id/choose_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="69dp"
+        android:text="@string/choose_server"
+        android:fontFamily="@font/vk_sans_medium"
+        android:textColor="@color/gray"
+        android:textSize="16sp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/URLtext"
+        android:layout_width="248dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/set_url_hint"
+        android:textColorHint="@color/cardview_shadow_start_color"
+        android:fontFamily="@font/vk_sans_medium"
+        android:background="@drawable/edittext_border"
+        android:textSize="16sp"
+        android:textColor="#FF808080"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/toSetURL"
+        android:layout_width="248dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="14dp"
+        android:background="@color/dark_green"
+        android:text="@string/set_url_ok"
+        android:fontFamily="@font/vk_sans_medium"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/gray"/>
+
+</LinearLayout>

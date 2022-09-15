@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".ThirdBinActivity">
+
+    <TextView
+        android:id="@+id/date3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/vk_sans_medium"
+        android:text="Данные [УДАЛЕНЫ]"
+        android:textColor="@color/gray"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/fullness3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vk_sans_medium"
+        android:text="Контейнер пуст!"
+        android:textColor="@color/gray"
+        android:textSize="18sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/type3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/vk_sans_medium"
+            android:text="@string/third_but"
+            android:textColor="@color/gray"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="36dp"
+            android:layout_marginRight="33dp"
+            android:fontFamily="@font/vk_sans_medium"
+            android:text="Контейнер 3"
+            android:textColor="@color/gray"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="294dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="13dp"
+        android:layout_gravity="center"
+        android:background="@drawable/text_bin">
+
+        <TextView
+            android:id="@+id/third_dist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/vk_sans_demibold"
+            android:text="Расстояние от крышки: 0 см"
+            android:textColor="@color/gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/third_perc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/third_dist"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/vk_sans_demibold"
+            android:text="Свободное место: 100%"
+            android:textColor="@color/gray"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/vk_sans_demibold"
+        android:text="@string/recommendation"
+        android:textColor="@color/gray"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="229dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/vk_sans_medium"
+        android:text="@string/rec3"
+        android:textColor="@color/gray"
+        android:textSize="16sp" />
+
+    <View android:layout_width="293dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="34dp"
+        android:background="@color/gray"
+        android:layout_marginTop="10sp"/>
+
+    <TextView
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/vk_sans_demibold"
+        android:text="@string/taking_out"
+        android:textColor="@color/gray"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp">
+
+        <Button
+            android:id="@+id/back_from_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="34dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/vk_sans_demibold"
+            android:gravity="start"
+            android:paddingStart="0dp"
+            android:text="@string/to_main"
+            android:textAllCaps="false"
+            android:textColor="@color/gray"
+            android:textSize="16sp"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+        <Button
+            android:id="@+id/third_to_first"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="34dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/vk_sans_demibold"
+            android:gravity="start"
+            android:paddingStart="0dp"
+            android:text="@string/to_next"
+            android:textAllCaps="false"
+            android:textColor="@color/gray"
+            android:textSize="16sp"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
